@@ -7,13 +7,20 @@ import {
   Subscribe,
   SuperQuality,
   Footer,
+
+ 
 } from "./sections";
 import Nav from "./components/Nav";
+import Physicians from "./sections/Physicians";
+// import Physician from "./physician/page";
 const App = () => (
   <main className="relative">
-    <Nav />
+    {/* <Nav /> */}
     <section className="xl:padding-1 wide:padding-r padding-b">
-      <Hero />
+
+    <Physicians/>
+
+      {/* <Hero />
     </section>
     <section className="padding">
       <PopularProducts />
@@ -34,7 +41,7 @@ const App = () => (
       <Subscribe />
     </section>
     <section className="bg-black padding-x padding-t pb-8">
-      <Footer />
+      <Footer /> */}
     </section>
   </main>
 );
